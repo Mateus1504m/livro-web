@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { ControleLivro } from './controle/controlelivros';
-import { ControleEditora } from './controle/controleditoras';
-
+import { useNavigate } from 'react-router-dom'
+import { ControleLivro } from './controle/ControleLivros';
+import { ControleEditora } from './controle/ControleEditoras';
 const controleLivro = new ControleLivro();
 const controleEditora = new ControleEditora();
 

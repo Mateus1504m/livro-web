@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { ControleLivro } from './controle/controlelivros';
-import { ControleEditora } from './controle/controleditoras';
+import { ControleLivro } from './controle/ControleLivros';
+import { ControleEditora } from './controle/ControleEditoras';
 
 const controleLivro = new ControleLivro();
 const controleEditora = new ControleEditora();
